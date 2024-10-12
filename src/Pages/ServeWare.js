@@ -40,7 +40,7 @@ function ServeWare() {
 
       {/* Grid Section */}
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {ServewareSell.map((item) => (
             <div
               key={item.id}
@@ -49,7 +49,7 @@ function ServeWare() {
               {/* Image */}
               <div className="h-[60%]">
                 <img
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-fill"
                   src={item.img}
                   alt={item.desc}
                 />

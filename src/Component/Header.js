@@ -11,9 +11,7 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow-lg">
-      <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-        {/* Logo or Title */}
-        <div className="text-2xl font-bold text-gray-800">Kitchen King</div>
+      <nav className="container mx-auto px-6 py-4 flex justify-between items-center md:justify-center">
         
         {/* Hamburger Menu for Mobile */}
         <div className="md:hidden">
@@ -21,13 +19,13 @@ const Header = () => {
             {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
           </button>
         </div>
-        
+
         {/* Navigation Links */}
         <ul className={`flex-col md:flex-row md:flex items-center space-y-6 md:space-y-0 md:space-x-8 text-gray-800 text-lg font-medium 
           ${isOpen ? 'flex' : 'hidden'} md:flex`}>
           <li>
-            <Link 
-              to="/home" 
+            <Link
+              to="/home"
               className="relative group"
             >
               Home
@@ -36,8 +34,8 @@ const Header = () => {
           </li>
 
           <li>
-            <Link 
-              to="/cooker" 
+            <Link
+              to="/cooker"
               className="relative group"
             >
               Pressure Cooker
@@ -46,8 +44,8 @@ const Header = () => {
           </li>
 
           <li>
-            <Link 
-              to="/khadhi" 
+            <Link
+              to="/khadhi"
               className="relative group"
             >
               Triply Cookware
@@ -56,8 +54,8 @@ const Header = () => {
           </li>
 
           <li>
-            <Link 
-              to="/serveware" 
+            <Link
+              to="/serveware"
               className="relative group"
             >
               ServeWare
@@ -66,8 +64,8 @@ const Header = () => {
           </li>
 
           <li>
-            <Link 
-              to="/contact" 
+            <Link
+              to="/contact"
               className="relative group"
             >
               Contact
@@ -76,8 +74,8 @@ const Header = () => {
           </li>
 
           <li>
-            <Link 
-              to="/track" 
+            <Link
+              to="/track"
               className="relative group"
             >
               Track Order

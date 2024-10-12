@@ -28,7 +28,7 @@ function TrackOrder() {
     };
 
     return (
-        <div className="max-w-4xl mx-auto px-6 py-16">
+        <div className="max-w-4xl mx-auto px-6 py-16 ">
             <h1 className="text-3xl font-bold text-center mb-8">Track Your Order</h1>
 
             {/* Box container around the form */}

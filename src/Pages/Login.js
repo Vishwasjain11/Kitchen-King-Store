@@ -24,7 +24,7 @@ function Login() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex flex-col items-center justify-center  bg-gray-100">
       <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-sm">
         <h2 className="text-3xl font-bold mb-6 text-center">Login Page</h2>
         <form className="space-y-4" onSubmit={HandleLogin}>

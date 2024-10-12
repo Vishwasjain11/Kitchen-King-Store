@@ -42,14 +42,14 @@ function Cooker() {
 
       {/* Grid Section */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 lg:gap-10">
           {cookerSell.map((item) => (
             <div
               key={item.id}
               className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden flex flex-col h-[400px] sm:h-[450px]"
             >
               {/* Image */}
-              <div className="h-[60%]">
+              <div className="h-[50%]">
                 <img
                   className="w-full h-full object-cover"
                   src={item.img}
